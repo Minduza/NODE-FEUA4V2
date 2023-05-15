@@ -1,0 +1,214 @@
+.center {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin:0;
+}
+
+body {
+    width:70%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+
+
+.main {
+    background-color: rgb(224, 246, 247);
+    padding:1rem 5rem;
+}
+
+.oneRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titleBox{
+    display: flex;
+}
+
+.title h2 {
+    font-size: 2rem;
+    margin:0
+}
+
+.title p {
+    width: 80%;
+    font-size: 0.9rem;
+    margin:1rem 0;
+}
+
+
+.labelWrap{
+    min-width: 130px;
+
+}
+
+.nameInput,
+.priceInput,
+.descriptionInput{
+ display:flex;
+ margin-bottom: 1rem;
+}
+
+input[name],
+input[number],
+textarea{
+    width:300px;
+    box-sizing: border-box;
+}
+
+.btnRow{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.primaryBtn {
+    background-color: rgb(73, 110, 211);
+    height: fit-content;
+    min-width:max-content;
+    padding:0.7rem 1rem;
+    border-radius: 0.3rem;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.secondaryBtn {
+    line-height: 2rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 3rem;
+    color:black;
+}
+
+
+.membershipPlans {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.memberCard {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(243, 243, 243);
+    width: 25%;
+}
+
+.btn {
+    background-color: rgb(255, 192, 192);
+    display: block;
+    padding: 0.5rem;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: 0.4rem 1rem 0 auto;
+    cursor: pointer;
+}
+
+.navBtn {
+    font-size: 1.1rem;
+}
+
+.navBtn a {
+    text-decoration: none;
+    margin:0 2rem;
+    padding: 0 1rem;
+    color:black;
+
+}
+
+.activeBtn {
+    color: rgb(52, 102, 236);
+}
+
+.memberCard p {
+    margin-bottom: 0.7rem;
+    font-size: 0.9rem;
+}
+
+.bi-trash3-fill {
+    color:red;
+}
+
+.btnDiv {
+    text-align: right;
+    width: 100%;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+footer{
+    background-color: rgb(224, 246, 247);
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+/* Create Membership */
+
+#formContainer {
+    padding: 2rem 6rem;
+    background-color: white;
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.12);
+}
+
+.membershipForm {
+    flex-direction: column;
+}
+
+/* User Management */
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start
+}
+
+.userCard {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(243, 243, 243);
+    width: 25%;
+    padding:1rem;
+    margin:0.5rem;
+    font-size:0.9rem
+}
+
+.sorting {
+    margin-bottom: 1rem;
+    width: 100%;
+
+}
+
+.sorting p {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.membershipSelect {
+    margin:1rem 0;
+}

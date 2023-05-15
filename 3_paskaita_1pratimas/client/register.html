@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <h2 class="title">Registracija naujiems klientams</h2>
+    <form id="registerForm">
+        <div class="row">
+            <div class="fieldName">Slaptažodis:*</div>
+            <div class="fieldValue">
+                <input type="password" name="password" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">Pakartokite slaptažodį:*</div>
+            <div class="fieldValue">
+                <input type="password" name="pswRepeat" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">El. paštas:*</div>
+            <div class="fieldValue">
+                <input type="email" name="email" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">Vardas:*</div>
+            <div class="fieldValue">
+                <input type="text" name="firstName" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">Pavardė:*</div>
+            <div class="fieldValue">
+                <input type="text" name="lastName" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">Adresas:*</div>
+            <div class="fieldValue">
+                <input type="text" name="address" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">Pašto kodas:</div>
+            <div class="fieldValue">
+                <input type="text" name="zipCode">
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">Miestas:*</div>
+            <div class="fieldValue">
+                <input type="text" name="city" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldName">Telefonas:*</div>
+            <div class="fieldValue">
+                <input type="phone" name="phoneNumber" value="+370" class="pswInput" required>
+            </div>
+        </div>
+        <div class="terms">
+            <label for="terms">Aš sutinku su paslaugų tiekimo sąlygomis:</label>
+            <input type="checkbox" name="terms" id="terms" required>
+        </div>
+        <button type="submit" id="regBtn">Registruotis</button>
+    </form>
+    
+    <script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#formLogin {
+    width: 350px;
+    background-color: rgb(253, 253, 253);
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px -14px rgba(0,0,0,0.75);
+}
+
+input[name='email'],
+input[name='password']{
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.regBtn{
+    font-size:1.2rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0;
+}

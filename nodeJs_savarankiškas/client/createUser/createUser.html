@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Create Membership</title>
+</head>
+<body>
+    <header>
+        <div class="navBtn"><a href="/nodeJs_savarankiškas/client/memberships/index.html">Memberships</a></div>
+        <div class="navBtn"><a href="/nodeJs_savarankiškas/client/users/users.html">Users</a></div>
+    </header>
+    <section class="main center membershipForm">
+        <h1 class="title">Create User</h1>
+        <form id="formContainer" action="">
+            <div class="nInput">
+                <div><label for="fname">First Name<span>*</span></label></div>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div class="nInput">
+                <div><label for="lname">Last Name<span>*</span></label></div>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="emailInput">
+                <div><label for="email">Email Address<span>*</span></label></div>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="membershipSelect">
+                <label for="plan">Choose a membership plan:</label>
+                <select name="plan" id="plan">
+                </select>
+            </div>
+            <div class="btnRow">
+                <button type="submit" class="primaryBtn">New User</button>
+                <a class="secondaryBtn" href="/nodeJs_savarankiškas/client/users/users.html">Cancel</a>
+            </div>
+        </form>
+    </section>
+    <footer><p>Copyright &copy2021 Membership Manager</p></footer>
+    <script src="createUser.js"></script>
+</body>
+</html>

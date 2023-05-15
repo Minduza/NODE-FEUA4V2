@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Create Membership</title>
+</head>
+<body>
+    <header>
+        <div class="navBtn"><a href="/nodeJs_savarankiškas/client/memberships/index.html">Memberships</a></div>
+        <div class="navBtn"><a href="/nodeJs_savarankiškas/client/users/users.html">Users</a></div>
+    </header>
+    <section class="main center membershipForm">
+
+        <form  action="">
+            <div class="nameInput">
+                <div class="labelWrap"><label for="name">Name</label></div>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="priceInput">
+                <div class="labelWrap"><label for="price">Membership Price</label></div>
+                <input type="number" id="price" name="price" step=".01" required>
+            </div>
+            <div class="descriptionInput">
+                <div class="labelWrap"><label for="description">Description</label></div>
+                <textarea rows='10' cols='39' id="description" name="description" required></textarea>
+            </div>
+            <div class="btnRow">
+                <button type="submit" class="primaryBtn">New Membership</button>
+                <a class='secondaryBtn' href="/nodeJs_savarankiškas/client/memberships/index.html">Cancel</a>
+            </div>
+        </form>
+    </section>
+    <footer><p>Copyright &copy2021 Membership Manager</p></footer>
+    <script src="createMembership.js"></script>
+</body>
+</html>
